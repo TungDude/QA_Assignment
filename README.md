@@ -39,7 +39,7 @@ Assignment: Sertis QA Intern
      ```bash
      pip install -r requirements.txt
 
-8. Create a .env file in the same directory as main.py containing
+8. Create a .env file at the root directory containing values for
     - POSTGRES_HOST
     - POSTGRES_DBNAME
     - POSTGRES_USER
@@ -53,7 +53,8 @@ Assignment: Sertis QA Intern
    
    ```bash
    python main.py
-   
+
+3. The results will be displayed in the terminal 
 4. When you are finished with testing, deactivate the virtual environment.
    
    ```bash
