@@ -12,12 +12,18 @@ Assignment: Sertis QA Intern
 
 ## Setting up the project
 
-1. Create a virtual environment.
+1. Clone the repository to your local machine, Using [this](https://github.com/TungDude/Automated-Testing.git) url.
+   
+   ```bash
+   git clone <url>
+   
+3. Navigate to the project directory.
+4. Create a virtual environment.
    
    ```bash
    python -m venv venv
    
-2. Activate the virtual environment.
+5. Activate the virtual environment.
    
    - macOS/Linux
      
@@ -29,11 +35,11 @@ Assignment: Sertis QA Intern
      ```bash
      venv\Scripts\activate
      
-3. Install the required dependencies
+7. Install the required dependencies
      ```bash
      pip install -r requirements.txt
 
-4. Create a .env file in the same directory as main.py containing
+8. Create a .env file in the same directory as main.py containing
     - POSTGRES_HOST
     - POSTGRES_DBNAME
     - POSTGRES_USER
